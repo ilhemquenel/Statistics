@@ -19,6 +19,19 @@ View(Budget)
 par(family ="sans-serif")
 dim(Budget)
 colnames(Budget) = c("AN", "PVP", "AGR", "CMI", "TRA", "LOG", "EDU", "ACS", "ANC", "DEF", "DET", "DIV")
+# AN : year
+# PVP : authorities
+# AGR : agriculture
+# CMI : trades and companies
+# TRA : work
+# LOG : accommodations
+# EDU : education
+# ACS : social action
+# ANC : veterans
+# DEF : defense
+# DET : debt refund
+# DIV : various
+
 # rownames(Budget) = Budget$AN
 
 
